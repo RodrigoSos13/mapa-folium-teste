@@ -3,24 +3,30 @@
         "LOCAL": "Belém",
         "LAT": -1.4383,
         "LONG": -48.1374,
-        "IMG": "https://quickchart.io/chart?c={type:'bar',data:{labels:['6h','9h','12h','15h','18h'],datasets:[{label:'Pressão (hPa)',data:[1012,1011,1013,1010,1012]}]}}"
+        "IMG": " https://quickchart.io/chart?bkg=white&c={ type: 'bar', data: { labels: ['Jan', 'Fev', 'Mar', 'Abr'], datasets: [{ label: 'Temperatura', data: [40, 28, 33, 19] }, { label: 'Umidade', data: [80, 47, 63, 100] }] }}"
     },
     {
         "LOCAL": "Brasília",
         "LAT": -15.7665,
         "LONG": -47.3198,
-        "IMG": "https://quickchart.io/chart?c={type:'bar',data:{labels:['6h','9h','12h','15h','18h'],datasets:[{label:'Temp (°C)',data:[22,24,26,25,23]}]}}"
+        "IMG": "https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[30, 25, 28, 32] }, { label:'Umidade', data:[75, 80, 70, 85] }] }}"
     },
     {
         "LOCAL": "Goianira",
         "LAT": -16.5067,
         "LONG": -49.4237,
-        "IMG": "https://quickchart.io/chart?c={type:'bar',data:{labels:['Jan','Feb','Mar'],datasets:[{label:'Temp',data:[25,28,30]}]}}"
+        "IMG": "https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[33, 29, 31, 27] }, { label:'Umidade', data:[68, 73, 78, 65] }] }}"
+    },
+    {
+    "LOCAL": "Manaus",
+    "LAT": -3.1190,
+    "LONG": -60.0217,
+    "IMG": "https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[30, 32, 31, 33] }, { label:'Umidade', data:[80, 78, 82, 79] }] }}"
     },
     {
         "LOCAL": "Porto Velho",
         "LAT": -8.7524,
         "LONG": -63.7228,
-        "IMG": "https://quickchart.io/chart?c={type:'bar',data:{labels:['Seg','Ter','Qua','Qui','Sex'],datasets:[{label:'Umidade (%)',data:[85,87,80,90,83]}]}}"
+        "IMG": "https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[27, 30, 29, 31] }, { label:'Umidade', data:[78, 80, 82, 77] }] }}"
     }
 ]
