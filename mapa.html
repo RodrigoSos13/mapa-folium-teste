@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a56a16827bb37c3ac26fa9be96132b8f {
+                #map_44ad2be4a90ca6724f970962903972ca {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_a56a16827bb37c3ac26fa9be96132b8f" ></div>
+            <div class="folium-map" id="map_44ad2be4a90ca6724f970962903972ca" ></div>
         
 </body>
 <script>
     
     
-            var map_a56a16827bb37c3ac26fa9be96132b8f = L.map(
-                "map_a56a16827bb37c3ac26fa9be96132b8f",
+            var map_44ad2be4a90ca6724f970962903972ca = L.map(
+                "map_44ad2be4a90ca6724f970962903972ca",
                 {
                     center: [-2.445406402677487, -54.72401972860755],
                     crs: L.CRS.EPSG3857,
@@ -55,58 +55,58 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            L.control.scale().addTo(map_44ad2be4a90ca6724f970962903972ca);
 
             
 
         
     
-            var tile_layer_00b4c4b8bee64f593f244191b2bbe1aa = L.tileLayer(
+            var tile_layer_402b67fc72cd2f14d0a76c396bf60ce1 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_00b4c4b8bee64f593f244191b2bbe1aa.addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            tile_layer_402b67fc72cd2f14d0a76c396bf60ce1.addTo(map_44ad2be4a90ca6724f970962903972ca);
         
     
-            var layer_control_8e48494f652aa554115032fe28ed0148_layers = {
+            var layer_control_29a612508795d5136ff8ea175ea2702f_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_00b4c4b8bee64f593f244191b2bbe1aa,
+                    "openstreetmap" : tile_layer_402b67fc72cd2f14d0a76c396bf60ce1,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_8e48494f652aa554115032fe28ed0148 = L.control.layers(
-                layer_control_8e48494f652aa554115032fe28ed0148_layers.base_layers,
-                layer_control_8e48494f652aa554115032fe28ed0148_layers.overlays,
+            let layer_control_29a612508795d5136ff8ea175ea2702f = L.control.layers(
+                layer_control_29a612508795d5136ff8ea175ea2702f_layers.base_layers,
+                layer_control_29a612508795d5136ff8ea175ea2702f_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            ).addTo(map_44ad2be4a90ca6724f970962903972ca);
 
         
     
-            var marker_8072ede57e12ce056af6cd0d54573556 = L.marker(
+            var marker_c54edea57bde2c67a01f8129b88342e2 = L.marker(
                 [-1.4383, -48.1374],
                 {}
-            ).addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            ).addTo(map_44ad2be4a90ca6724f970962903972ca);
         
     
-        var popup_ac11d39231b60777f9d2ed4706a94906 = L.popup({"maxWidth": 800});
+        var popup_262db336fe0ae72985177a46afbd1dd0 = L.popup({"maxWidth": 800});
 
         
             
-                var html_58092b89db4e5bbc266a098a15b62dab = $(`<div id="html_58092b89db4e5bbc266a098a15b62dab" style="width: 100.0%; height: 100.0%;">     <b>Belém</b><br>     <img src=" https://quickchart.io/chart?bkg=white&c={ type: 'bar', data: { labels: ['Jan', 'Fev', 'Mar', 'Abr'], datasets: [{ label: 'Temperatura', data: [40, 28, 33, 19] }, { label: 'Umidade', data: [80, 47, 63, 100] }] }}" width="400">     </div>`)[0];
-                popup_ac11d39231b60777f9d2ed4706a94906.setContent(html_58092b89db4e5bbc266a098a15b62dab);
+                var html_d99ee50a88957e81ea848d60c9dee9bd = $(`<div id="html_d99ee50a88957e81ea848d60c9dee9bd" style="width: 100.0%; height: 100.0%;">     <b>Belém</b><br>     <img src=" https://quickchart.io/chart?bkg=white&c={ type: 'bar', data: { labels: ['Jan', 'Fev', 'Mar', 'Abr'], datasets: [{ label: 'Temperatura', data: [40, 28, 33, 19] }, { label: 'Umidade', data: [80, 47, 63, 100] }] }}" width="400">     </div>`)[0];
+                popup_262db336fe0ae72985177a46afbd1dd0.setContent(html_d99ee50a88957e81ea848d60c9dee9bd);
             
         
 
-        marker_8072ede57e12ce056af6cd0d54573556.bindPopup(popup_ac11d39231b60777f9d2ed4706a94906)
+        marker_c54edea57bde2c67a01f8129b88342e2.bindPopup(popup_262db336fe0ae72985177a46afbd1dd0)
         ;
 
         
     
     
-            marker_8072ede57e12ce056af6cd0d54573556.bindTooltip(
+            marker_c54edea57bde2c67a01f8129b88342e2.bindTooltip(
                 `<div>
                      Belém
                  </div>`,
@@ -114,28 +114,28 @@
             );
         
     
-            var marker_2229ee1ef6db0d08bbf5e2b2afd40bd2 = L.marker(
+            var marker_5b2ecac59f28244b3e4bee48a1a63b6f = L.marker(
                 [-15.7665, -47.3198],
                 {}
-            ).addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            ).addTo(map_44ad2be4a90ca6724f970962903972ca);
         
     
-        var popup_fd36ccf1af02c1c0f9f8b7b5720fb060 = L.popup({"maxWidth": 800});
+        var popup_2b12c78fbfa7dac0a486dd432b4c7dbf = L.popup({"maxWidth": 800});
 
         
             
-                var html_fee6e733517843f58f469ed633745e3d = $(`<div id="html_fee6e733517843f58f469ed633745e3d" style="width: 100.0%; height: 100.0%;">     <b>Brasília</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[30, 25, 28, 32] }, { label:'Umidade', data:[75, 80, 70, 85] }] }}" width="400">     </div>`)[0];
-                popup_fd36ccf1af02c1c0f9f8b7b5720fb060.setContent(html_fee6e733517843f58f469ed633745e3d);
+                var html_ae612b028c5468d4aa74ab957154f343 = $(`<div id="html_ae612b028c5468d4aa74ab957154f343" style="width: 100.0%; height: 100.0%;">     <b>Brasília</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[30, 25, 28, 32] }, { label:'Umidade', data:[75, 80, 70, 85] }] }}" width="400">     </div>`)[0];
+                popup_2b12c78fbfa7dac0a486dd432b4c7dbf.setContent(html_ae612b028c5468d4aa74ab957154f343);
             
         
 
-        marker_2229ee1ef6db0d08bbf5e2b2afd40bd2.bindPopup(popup_fd36ccf1af02c1c0f9f8b7b5720fb060)
+        marker_5b2ecac59f28244b3e4bee48a1a63b6f.bindPopup(popup_2b12c78fbfa7dac0a486dd432b4c7dbf)
         ;
 
         
     
     
-            marker_2229ee1ef6db0d08bbf5e2b2afd40bd2.bindTooltip(
+            marker_5b2ecac59f28244b3e4bee48a1a63b6f.bindTooltip(
                 `<div>
                      Brasília
                  </div>`,
@@ -143,28 +143,28 @@
             );
         
     
-            var marker_b707cce79954b91edb366a77c1a0679c = L.marker(
+            var marker_80cf1791576470c6cd7771e56b1cdf11 = L.marker(
                 [-16.5067, -49.4237],
                 {}
-            ).addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            ).addTo(map_44ad2be4a90ca6724f970962903972ca);
         
     
-        var popup_c9a105c717faba3696c970ab1cc8ecc8 = L.popup({"maxWidth": 800});
+        var popup_9ab5ba36663c1aab1aa3de1dbf2c8d31 = L.popup({"maxWidth": 800});
 
         
             
-                var html_c120af71338f73435b81b2f469bcb11c = $(`<div id="html_c120af71338f73435b81b2f469bcb11c" style="width: 100.0%; height: 100.0%;">     <b>Goianira</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[33, 29, 31, 27] }, { label:'Umidade', data:[68, 73, 78, 65] }] }}" width="400">     </div>`)[0];
-                popup_c9a105c717faba3696c970ab1cc8ecc8.setContent(html_c120af71338f73435b81b2f469bcb11c);
+                var html_3b18339e6cf6cbfc2288d2ff5db08d31 = $(`<div id="html_3b18339e6cf6cbfc2288d2ff5db08d31" style="width: 100.0%; height: 100.0%;">     <b>Goianira</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[33, 29, 31, 27] }, { label:'Umidade', data:[68, 73, 78, 65] }] }}" width="400">     </div>`)[0];
+                popup_9ab5ba36663c1aab1aa3de1dbf2c8d31.setContent(html_3b18339e6cf6cbfc2288d2ff5db08d31);
             
         
 
-        marker_b707cce79954b91edb366a77c1a0679c.bindPopup(popup_c9a105c717faba3696c970ab1cc8ecc8)
+        marker_80cf1791576470c6cd7771e56b1cdf11.bindPopup(popup_9ab5ba36663c1aab1aa3de1dbf2c8d31)
         ;
 
         
     
     
-            marker_b707cce79954b91edb366a77c1a0679c.bindTooltip(
+            marker_80cf1791576470c6cd7771e56b1cdf11.bindTooltip(
                 `<div>
                      Goianira
                  </div>`,
@@ -172,28 +172,28 @@
             );
         
     
-            var marker_e613ca453371e2526ed010db983f880f = L.marker(
+            var marker_a6a3b59677db310001ec5c889ac460d5 = L.marker(
                 [-3.119, -60.0217],
                 {}
-            ).addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            ).addTo(map_44ad2be4a90ca6724f970962903972ca);
         
     
-        var popup_5127f339b0bba584be859ecbf0ce456c = L.popup({"maxWidth": 800});
+        var popup_00959ae215e127c81fa7f08ebbe961bf = L.popup({"maxWidth": 800});
 
         
             
-                var html_837beabd21d9f8ca29abfa85f464df53 = $(`<div id="html_837beabd21d9f8ca29abfa85f464df53" style="width: 100.0%; height: 100.0%;">     <b>Manaus</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[30, 32, 31, 33] }, { label:'Umidade', data:[80, 78, 82, 79] }] }}" width="400">     </div>`)[0];
-                popup_5127f339b0bba584be859ecbf0ce456c.setContent(html_837beabd21d9f8ca29abfa85f464df53);
+                var html_601a6091cae51a5f6e38515ea5c66232 = $(`<div id="html_601a6091cae51a5f6e38515ea5c66232" style="width: 100.0%; height: 100.0%;">     <b>Manaus</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[30, 32, 31, 33] }, { label:'Umidade', data:[80, 78, 82, 79] }] }}" width="400">     </div>`)[0];
+                popup_00959ae215e127c81fa7f08ebbe961bf.setContent(html_601a6091cae51a5f6e38515ea5c66232);
             
         
 
-        marker_e613ca453371e2526ed010db983f880f.bindPopup(popup_5127f339b0bba584be859ecbf0ce456c)
+        marker_a6a3b59677db310001ec5c889ac460d5.bindPopup(popup_00959ae215e127c81fa7f08ebbe961bf)
         ;
 
         
     
     
-            marker_e613ca453371e2526ed010db983f880f.bindTooltip(
+            marker_a6a3b59677db310001ec5c889ac460d5.bindTooltip(
                 `<div>
                      Manaus
                  </div>`,
@@ -201,28 +201,28 @@
             );
         
     
-            var marker_91734a1012d1b73f2f9434d837d088c4 = L.marker(
+            var marker_fa11c72e4ce13b23136a2100bcb00665 = L.marker(
                 [-8.7524, -63.7228],
                 {}
-            ).addTo(map_a56a16827bb37c3ac26fa9be96132b8f);
+            ).addTo(map_44ad2be4a90ca6724f970962903972ca);
         
     
-        var popup_d572024b832b9e87acee6eb89f450c73 = L.popup({"maxWidth": 800});
+        var popup_4b94757790f097870ed931e85c31093d = L.popup({"maxWidth": 800});
 
         
             
-                var html_849966a75c86b50aae14473fa535faec = $(`<div id="html_849966a75c86b50aae14473fa535faec" style="width: 100.0%; height: 100.0%;">     <b>Porto Velho</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[27, 30, 29, 31] }, { label:'Umidade', data:[78, 80, 82, 77] }] }}" width="400">     </div>`)[0];
-                popup_d572024b832b9e87acee6eb89f450c73.setContent(html_849966a75c86b50aae14473fa535faec);
+                var html_267f0ae22b1afc7a77dae099addfeed1 = $(`<div id="html_267f0ae22b1afc7a77dae099addfeed1" style="width: 100.0%; height: 100.0%;">     <b>Porto Velho</b><br>     <img src="https://quickchart.io/chart?bkg=white&c={ type:'bar', data:{ labels:['Jan','Fev','Mar','Abr'], datasets:[{ label:'Temperatura', data:[27, 30, 29, 31] }, { label:'Umidade', data:[78, 80, 82, 77] }] }}" width="400">     </div>`)[0];
+                popup_4b94757790f097870ed931e85c31093d.setContent(html_267f0ae22b1afc7a77dae099addfeed1);
             
         
 
-        marker_91734a1012d1b73f2f9434d837d088c4.bindPopup(popup_d572024b832b9e87acee6eb89f450c73)
+        marker_fa11c72e4ce13b23136a2100bcb00665.bindPopup(popup_4b94757790f097870ed931e85c31093d)
         ;
 
         
     
     
-            marker_91734a1012d1b73f2f9434d837d088c4.bindTooltip(
+            marker_fa11c72e4ce13b23136a2100bcb00665.bindTooltip(
                 `<div>
                      Porto Velho
                  </div>`,
